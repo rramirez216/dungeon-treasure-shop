@@ -1,12 +1,11 @@
 const constants = {
   categories: [
-    'Jewelry/Gems',
-    'consumables',
-    'accessories',
-    'Ingrediants',
-    'Miscellaneous',
+    { title: 'Jewelry/Gems' },
+    { title: 'Consumables' },
+    { title: 'Accessories' },
+    { title: 'Ingrediants' },
+    { title: 'Miscellaneous' },
   ],
-  shopNow: 'Shop Now',
 }
 
 export default constants
