@@ -1,3 +1,4 @@
+import { Routes, Route } from 'react-router-dom'
 import styled from 'styled-components'
 import CategoriesContainer from '../CategoriesContainer'
 import GlobalStyles from '../GlobalStyles'
@@ -5,7 +6,9 @@ import GlobalStyles from '../GlobalStyles'
 const App = () => {
   return (
     <Wrapper>
-      <CategoriesContainer />
+      <Routes>
+        <Route path='/' element={<CategoriesContainer />} />
+      </Routes>
       <GlobalStyles />
     </Wrapper>
   )
