@@ -2,11 +2,14 @@ import { Routes, Route } from 'react-router-dom'
 import styled from 'styled-components'
 import CategoriesContainer from '../CategoriesContainer'
 import GlobalStyles from '../GlobalStyles'
+import Navigation from '../Navigation'
 
 const App = () => {
   return (
     <Wrapper>
+      <Navigation />
       <Routes>
+        {/* <Route element={<Navigation />} /> */}
         <Route path='/' element={<CategoriesContainer />} />
       </Routes>
       <GlobalStyles />
