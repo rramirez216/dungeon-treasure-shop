@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import CategoriesContainer from '../CategoriesContainer'
 import GlobalStyles from '../GlobalStyles'
 import Navigation from '../Navigation'
+import SignIn from '../SignIn'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Routes>
         {/* <Route element={<Navigation />} /> */}
         <Route path='/' element={<CategoriesContainer />} />
+        <Route path='/signin' element={<SignIn />} />
       </Routes>
       <GlobalStyles />
     </Wrapper>
