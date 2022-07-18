@@ -14,8 +14,8 @@ const Navigation = () => {
         </NavLink>
         <NavLink to='/shop'>Shop</NavLink>
         <NavLink to='/contact'>Contact</NavLink>
-        <NavLink to='Sign In'>Sign In</NavLink>
-        <NavLink to='Cart'>
+        <NavLink to='/SignIn'>Sign In</NavLink>
+        <NavLink to='/Cart'>
           <ShoppingCart />
         </NavLink>
       </InnerWrapper>
