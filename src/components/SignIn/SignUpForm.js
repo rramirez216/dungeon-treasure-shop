@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { defaultFormFields } from './SignIn.constants'
+import defaultFormFields from './SignIn.constants'
 
 const SignUpForm = () => {
   const [formFields, setFormFields] = useState(defaultFormFields)
